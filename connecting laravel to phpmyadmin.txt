@@ -1,0 +1,15 @@
+how to connect to phpmyadmin in laravel
+
+1-go open ".env" and change the "DB_DATABASE=laravel" to "DB_DATABASE=DatabaseName".
+
+2-run php artisan serve to restart the web serve.
+
+3-create tables in database ether by migrations or using phpmyadmin.
+
+4-make a model for a table in powershell "php artisan make:model !!!name of the table here!!!".
+
+5-in the tableControler add "use App\!!!name of the table here!!!".
+
+6- inside the function to return "$thing = !!!name of the table here!!!::all();" to return all things in the table.
+
+7- print it out in the page by typing {{ $thing->!!column in table!! }}
