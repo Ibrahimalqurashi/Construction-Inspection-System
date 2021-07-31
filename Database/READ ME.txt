@@ -1,0 +1,16 @@
+this is the database for the project
+
+import the "testdb.sql" to phpMyAdmin to test the project.
+
+tools:
+-xampp (should include MariaDB)
+
+steps:
+1- install xamp.
+2- go to "C:\xampp"
+3- run "xampp-control.exe"
+4- in the "Actions" coullumn click "Start" for "Apache" and "MySQL".
+5- open up the browser and go to "http://localhost/phpmyadmin".
+6- on the right click on "New" then click on the sixth tab called "Import".
+7- click on "Choose File" and select "testdb.sql" then click on go.
+8- cheack that the database has been imported, it should appear on the right under "New".
